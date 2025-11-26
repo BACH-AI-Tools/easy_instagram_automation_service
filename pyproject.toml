@@ -1,0 +1,35 @@
+[project]
+name = "bach-easy_instagram_automation_service"
+version = "1.0.0"
+description = "RapidAPI: socialgreatnessfactor/easy-instagram-automation-service"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.0.0",
+    "httpx>=0.25.0",
+]
+
+[project.scripts]
+bach_easy_instagram_automation_service = "server:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/bachstudio/bach-easy_instagram_automation_service"
+Repository = "https://github.com/bachstudio/bach-easy_instagram_automation_service"
+Documentation = "https://github.com/bachstudio/bach-easy_instagram_automation_service#readme"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[tool.hatch.version]
+path = "server.py"
+pattern = '__version__ = "(?P<version>[^"]+)"'
