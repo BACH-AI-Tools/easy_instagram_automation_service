@@ -33,7 +33,7 @@
 這是一個 MCP 伺服器，用於存取 Easy Instagram Automation Service API。
 
 - **PyPI 套件名**: `bach-easy_instagram_automation_service`
-- **版本**: 1.0.0
+- **版本**: 2.0.0
 - **傳輸協定**: stdio
 
 
@@ -487,4 +487,4 @@ This endpoint will return back all information for use of instagram automation -
 
 此伺服器由 [API-to-MCP](https://github.com/BACH-AI-Tools/api-to-mcp) 工具自動生成。
 
-版本: 1.0.0
+版本: 2.0.0
