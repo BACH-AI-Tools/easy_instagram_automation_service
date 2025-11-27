@@ -30,7 +30,7 @@
 
 ## 簡介
 
-這是一個使用 [FastMCP](https://fastmcp.wiki) 自動生成的 MCP 伺服器，用於存取 Easy Instagram Automation Service API。
+這是一個 MCP 伺服器，用於存取 Easy Instagram Automation Service API。
 
 - **PyPI 套件名**: `bach-easy_instagram_automation_service`
 - **版本**: 1.0.0
@@ -107,8 +107,8 @@ export API_KEY="your_api_key_here"
 {
   "mcpServers": {
     "easy_instagram_automation_service": {
-      "command": "python",
-      "args": ["E:\path\to\easy_instagram_automation_service\server.py"],
+      "command": "uvx",
+      "args": ["--from", "bach-easy_instagram_automation_service", "bach_easy_instagram_automation_service"],
       "env": {
         "API_KEY": "your_api_key_here"
       }
@@ -480,7 +480,6 @@ This endpoint will return back all information for use of instagram automation -
 
 ## 技术栈
 
-- **FastMCP**: 快速、Pythonic 的 MCP 服务器框架
 - **传输协议**: stdio
 - **HTTP 客户端**: httpx
 

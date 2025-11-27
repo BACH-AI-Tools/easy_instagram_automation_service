@@ -1,0 +1,605 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Easy Instagram Automation Service",
+    "version": "1.0.0",
+    "description": "RapidAPI: socialgreatnessfactor/easy-instagram-automation-service"
+  },
+  "servers": [
+    {
+      "url": "https://easy-instagram-automation-service.p.rapidapi.com"
+    }
+  ],
+  "paths": {
+    "/auth/auth_login_auth_login_post": {
+      "post": {
+        "summary": "Auth login",
+        "description": "This endpoint will return back all information for use of instagram automation - Auth login",
+        "operationId": "auth_login",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/auth/timeline_feed_auth_timeline_feed_get": {
+      "get": {
+        "summary": "timeline feed",
+        "description": "This endpoint will return back all information for use of instagram automation - timeline feed",
+        "operationId": "timeline_feed",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/insights/media_insights_media_post": {
+      "post": {
+        "summary": "media insights",
+        "description": "This endpoint will return back all information for use of instagram automation - Get insights data for media",
+        "operationId": "media_insights",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/insights/account_insights_account_post": {
+      "post": {
+        "summary": "account insights",
+        "description": "This endpoint will return back all information for use of instagram automation - Get insights for account",
+        "operationId": "account_insights",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/insights/media_feed_all_insights_media_feed_all_post": {
+      "post": {
+        "summary": "media feed all",
+        "description": "This endpoint will return back all information for use of instagram automation - Return media with insights",
+        "operationId": "media_feed_all",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/story/story_pk_from_url_story_pk_from_url_get": {
+      "get": {
+        "summary": "Story from URL",
+        "description": "This endpoint will return back all information for use of instagram automation - Get Story (media) PK from URL",
+        "operationId": "story_from_url",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/igtv/igtv_upload_igtv_upload_by_url_post": {
+      "post": {
+        "summary": "IGTV upload by url_copy",
+        "description": "This endpoint will return back all information for use of instagram automation - Upload photo by URL and configure to feed",
+        "operationId": "igtv_upload_by_url_copy",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/igtv/igtv_download_by_url_igtv_download_by_url_post": {
+      "post": {
+        "summary": "IGTV download by url",
+        "description": "This endpoint will return back all information for use of instagram automation - Download IGTV video using URL",
+        "operationId": "igtv_download_by_url",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/user/user_remove_follower_user_remove_follower_post": {
+      "post": {
+        "summary": "user remove follower",
+        "description": "This endpoint will return back all information for use of instagram automation - Remove a follower",
+        "operationId": "user_remove_follower",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/user/username_from_user_id_user_username_from_id_post": {
+      "post": {
+        "summary": "username from user id",
+        "description": "This endpoint will return back all information for use of instagram automation - Get username from user id",
+        "operationId": "username_from_user_id",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/user/user_id_from_username_user_id_from_username_post": {
+      "post": {
+        "summary": "user id from username",
+        "description": "This endpoint will return back all information for use of instagram automation - Get user id from username",
+        "operationId": "user_id_from_username",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/user/user_unfollow_user_unfollow_post": {
+      "post": {
+        "summary": "user unfollow",
+        "description": "This endpoint will return back all information for use of instagram automation - Unfollow a user",
+        "operationId": "user_unfollow",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/user/user_follow_user_follow_post": {
+      "post": {
+        "summary": "user follow",
+        "description": "This endpoint will return back all information for use of instagram automation - Follow a user",
+        "operationId": "user_follow",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/user/user_info_by_username_user_info_by_username_post": {
+      "post": {
+        "summary": "user info by username",
+        "description": "This endpoint will return back all information for use of instagram automation - Get user object from username",
+        "operationId": "user_info_by_username",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/user/user_info_user_info_post": {
+      "post": {
+        "summary": "user info",
+        "description": "This endpoint will return back all information for use of instagram automation - Get user object from user id",
+        "operationId": "user_info",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/user/user_following_user_following_post": {
+      "post": {
+        "summary": "user following",
+        "description": "This endpoint will return back all information for use of instagram automation - Get user's followers information",
+        "operationId": "user_following",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/user/user_followers_user_followers_post": {
+      "post": {
+        "summary": "user followers",
+        "description": "This endpoint will return back all information for use of instagram automation - Get user's followers",
+        "operationId": "user_followers",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/photo/photo_upload_photo_upload_by_url_post": {
+      "post": {
+        "summary": "photo upload by url",
+        "description": "This endpoint will return back all information for use of instagram automation - photo upload by url",
+        "operationId": "photo_upload_by_url",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/photo/photo_download_by_url_photo_download_by_url_post": {
+      "post": {
+        "summary": "photo download by url",
+        "description": "This endpoint will return back all information for use of instagram automation - photo download by url",
+        "operationId": "photo_download_by_url",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/photo/photo_upload_to_story_by_url_photo_upload_to_story_by_url_post": {
+      "post": {
+        "summary": "photo upload to story by url",
+        "description": "This endpoint will return back all information for use of instagram automation - photo upload to story by url",
+        "operationId": "photo_upload_to_story_by_url",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/video/video_upload_video_upload_by_url_post": {
+      "post": {
+        "summary": "video upload by url",
+        "description": "This endpoint will return back all information for use of instagram automation - video upload by url",
+        "operationId": "video_upload_by_url",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/video/video_download_by_url_video_download_by_url_post": {
+      "post": {
+        "summary": "video download by url",
+        "description": "This endpoint will return back all information for use of instagram automation - video download by url",
+        "operationId": "video_download_by_url",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/video/video_download_video_download_post": {
+      "post": {
+        "summary": "video download",
+        "description": "This endpoint will return back all information for use of instagram automation - video download",
+        "operationId": "video_download",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/video/video_upload_to_story_by_url_video_upload_to_story_by_url_post": {
+      "post": {
+        "summary": "video upload to story by url",
+        "description": "This endpoint will return back all information for use of instagram automation - video upload to story by url",
+        "operationId": "video_upload_to_story_by_url",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/video/video_upload_to_story_video_upload_to_story_post": {
+      "post": {
+        "summary": "video upload to story",
+        "description": "This endpoint will return back all information for use of instagram automation - video upload to story",
+        "operationId": "video_upload_to_story",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/media/media_likers_media_likers_post": {
+      "post": {
+        "summary": "media likers",
+        "description": "This endpoint will return back all information for use of instagram automation - media likers",
+        "operationId": "media_likers",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/media/media_unlike_media_unlike_post": {
+      "post": {
+        "summary": "media unlike",
+        "description": "This endpoint will return back all information for use of instagram automation - media unlike",
+        "operationId": "media_unlike",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/media/media_like_media_like_post": {
+      "post": {
+        "summary": "like media",
+        "description": "This endpoint will return back all information for use of instagram automation - like media",
+        "operationId": "like_media",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/media/media_oembed_media_oembed_post": {
+      "post": {
+        "summary": "media oembed",
+        "description": "This endpoint will return back all information for use of instagram automation - media oembed",
+        "operationId": "media_oembed",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/media/user_medias_media_user_medias_post": {
+      "post": {
+        "summary": "user media",
+        "description": "This endpoint will return back all information for use of instagram automation - user media",
+        "operationId": "user_media",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/media/media_info_media_info_post": {
+      "post": {
+        "summary": "media info",
+        "description": "This endpoint will return back all information for use of instagram automation - media info",
+        "operationId": "media_info",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/auth/auth_relogin_auth_relogin_post": {
+      "post": {
+        "summary": "Auth relogin",
+        "description": "This endpoint will return back all information for use of instagram automation - Auth relogin",
+        "operationId": "auth_relogin",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "ApiAuth": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "X-RapidAPI-Key"
+      }
+    }
+  },
+  "security": [
+    {
+      "ApiAuth": []
+    }
+  ]
+}
